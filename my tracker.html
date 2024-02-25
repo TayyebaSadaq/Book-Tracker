@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Tracking</title>
+    <link rel="stylesheet" type="text/css" href= "styling/tracker.css">
+    <link rel="stylesheet" type="text/css" href= "styling/common.css">
+</head>
+
+<body>
+    <h1>My Tracker</h1>
+
+    <!-- NAVIGATION BAR  -->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse</a>
+        <a href="#" class="split">Login</a>
+    </div>
+        
+    <!-- CODE TO ADD BOOK -->
+    <body>
+        <div class="container">
+            <h2>Add a book</h2>
+            <div>
+                <label for="bookTitle">Title:</label>
+                <input type="text" id="bookTitle" placeholder="Enter book title">
+            </div>
+            <div>
+                <label for="bookAuthor">Author:</label>
+                <input type="text" id="bookAuthor" placeholder="Enter author">
+            </div>
+            <div>
+                <label for="bookType">Type:</label>
+                <select id="bookType">
+                    <option value="paperback">Paperback</option>
+                    <option value="hardback">Hardback</option>
+                    <option value="audiobook">Audiobook</option>
+                    <option value="kindle">Kindle</option>
+                </select>
+            </div>
+            <button onclick="addBook()">Add</button>
+            <ul id="bookList"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</body>
+
+</html>
