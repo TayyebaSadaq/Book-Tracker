@@ -1,4 +1,4 @@
-# 📚 Library-Management
+# 📚 Book Tracker
 ## 🤝 Partner Project
 This began as a pair code project for the Data and SQL Code First Girls course. The project involved creating a database using SQL and also code a few stored function.
 I worked alongside [Nasteho Abdi](https://github.com/Nastehooo) to create and present our initial project, earning us both a certificate for the course.
